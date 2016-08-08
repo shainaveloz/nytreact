@@ -4,9 +4,9 @@ var app = express();
 var bodyParser = require('body-parser');
 var logger = require('morgan');
 
-//requiring request and geocoder
+//requiring request and nytimes
 var request = require('request');
-
+var NYT = require('nyt');
 
 // Run Morgan for Logging
 app.use(logger('dev'));
