@@ -18,6 +18,7 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 // static file support with public folder
 app.use(express.static('public'));
 
+
 // listen on port 3000
 app.listen(3000, function() {
     console.log('App running on port 3000!');
